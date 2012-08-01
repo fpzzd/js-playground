@@ -1,0 +1,28 @@
+body {
+	background-color:white;
+	font-family: "Helvetica"
+}
+
+label {
+	font-weight: bold;
+	font-size: 15px;
+	color:black;
+}
+
+input {
+	font-size: 15px;
+	font-family: "Helvetica" ;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid black ;
+	border-left: 1px solid black ;
+	border-right: 1px solid black ;
+	border-top: 1px solid black ;
+}
+
+div#response {
+	border: 1px dotted black ;
+	height: 50px;
+	width: 50%;
+	margin: 20px;
+}

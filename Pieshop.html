@@ -1,0 +1,21 @@
+<script>
+	
+	while (!(pieNumber = prompt ("Welcome to Pie Powerhouse. How many pies would like today?"))) {
+		alert('Enter a number, please.');
+	}
+
+	while (!(pieType = prompt ("What type of pie would you like?"))){
+	alert ("come on, I haven't got all day!")
+	}
+	var pieMoney = (pieNumber + pieType.length -4)
+	while (!(drinkKind = prompt ("what kind of beverage would you like?"))) {
+		alert ("jeez,you're wasting my time!")
+	}
+	var drinkMoney = (drinkKind.length - 3)
+	var fullMoney = (pieMoney + drinkMoney)
+	alert ("Thank you for stopping by. You must pay $" + fullMoney)
+
+
+
+
+</script>
